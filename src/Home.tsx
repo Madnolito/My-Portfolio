@@ -55,6 +55,7 @@ export const Home = () => {
     <div className="manu-container-2">
       <div className="info-container">
         <Routes location={location} key={location.pathname}>
+          <Route index element={<Home />} />
           <Route path="/experiencia" element={<Experiencia />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/sobre-mi" element={<Sobremi />} />
