@@ -4,6 +4,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { Experiencia } from './Components/Experiencia';
 import { Contacto } from './Components/Contacto';
 import { Secciones } from './Components/Secciones';
+import { Sobremi } from './Components/Sobre-mi';
 
 export const Home = () => {
 
@@ -30,7 +31,7 @@ export const Home = () => {
             className='title-animate'  
             initial={{ opacity: 0, x: -150 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.2 }}>
+            transition={{ duration: 1.3 }}>
             <h2 className='manu-subtitle'>Desarrollador full-stack</h2>  
           </motion.div>
 
@@ -40,9 +41,10 @@ export const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 2 }}>
                       
-            <p className='description'>Ingeniero Informático con experiencia en el desarrollo de back-end, front-end de aplicaciones web y móvil. 
-            Me considero una persona enérgica, activa y con vocación, para brindar lo mejor de mí en cada proyecto que se me presente.
-            Tengo una gran capacidad para trabajar en equipo, con alta adaptación a cambios y a nuevos desafíos, tanto profesionales como personales.
+            <p className='description'>
+            Soy un desarrollador de software con preferencia por el teletrabajo.<br></br> <br></br>
+            Disfruto explorando nuevas tecnologías y me gusta manipular bases de datos. <br></br> <br></br>
+            Actualmente, formo parte de la empresa Terra, aportando a su equipo con mi experiencia y entusiasmo por la innovación tecnológica.   
             </p>
           </motion.div>
 
@@ -55,6 +57,7 @@ export const Home = () => {
         <Routes location={location} key={location.pathname}>
           <Route path="/experiencia" element={<Experiencia />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/sobre-mi" element={<Sobremi />} />
         </Routes>      
       </div>
     </div>
