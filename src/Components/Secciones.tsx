@@ -30,7 +30,7 @@ export const Secciones = () => {
                 >  
                 <Link className="seccion-title" to="/sobre-mi">
                     <span className='line'></span>
-                    <h3 >Sobre mi</h3>
+                    <h3>Sobre mi</h3>
                 </Link>
                 </motion.div>
             </li>
