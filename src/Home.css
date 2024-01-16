@@ -3,12 +3,24 @@ body {
   background-color: rgb(15 23 42/var(--tw-bg-opacity)) !important;
 }
 
-.manu-container {
-  margin-left: 23rem;
-  margin-right: 23rem;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.281);
+.manu-principal-container {
+  max-width: 2000px;
+  display: flex;
+}
+
+.manu-container-1 {
   padding-bottom: 10rem;
   margin-bottom: 3rem;
+  max-width: 580px;
+  margin-left: 12rem;
+}
+
+.manu-container-2 {
+  margin-top: 4rem;
+  padding-bottom: 10rem;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: 10rem;
 }
 
 /* Modificaciones específicas para pantallas pequeñas */
@@ -63,6 +75,7 @@ body {
   }
 }
 
+
 .manu-container h1, h2, h3, h4, p, span, strong {
   font-family: 'Oswald';
 }
@@ -75,7 +88,7 @@ body {
   margin-top: 8rem;
   --tw-text-opacity: 1;
   color: rgb(94 234 212/var(--tw-text-opacity));
-  font-size: 70px;
+  font-size: 75px;
   margin-bottom: 0;
   font-style: inherit;
 }
@@ -84,7 +97,7 @@ body {
   --tw-text-opacity: 1;
   color: rgb(94 234 212/var(--tw-text-opacity));
   margin-top: 0;
-  font-size: 44px;
+  font-size: 38px;
 }
 
 .title-animate {
@@ -99,7 +112,7 @@ body {
 }
 
 .about-me{
-  margin-top: 3rem;
+  margin-top: 1rem;
   --tw-text-opacity: 1;
   color: rgb(226 232 240/var(--tw-text-opacity));
 }
@@ -130,7 +143,7 @@ body {
 .business-name {
   --tw-text-opacity: 1;
   color: rgb(94 234 212/var(--tw-text-opacity));
-  margin-top: 3rem;
+  margin-top: 9rem;
 }
 
 .job-time {
@@ -182,3 +195,9 @@ body {
   display: flex;
 }
 
+.seccion-title {
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
