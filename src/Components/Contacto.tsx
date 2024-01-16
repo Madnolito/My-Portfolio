@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { SiGithub, SiLinkedin } from "react-icons/si";
+import { BiLogoGmail } from "react-icons/bi";
 import '../Home.css'
 
 const fadeInVariants = {
@@ -23,7 +25,7 @@ export const Contacto = () => {
           <h1 className='experience'>Contacto</h1>
 
           {/* PRIMER CONTACTO */}
-          <h1 className='business-name'>Mándame un correo</h1>
+          <a className="contact-a" href="https://mail.google.com/mail/u/0/#inbox" target="e_blank"><h1 className='business-name'><BiLogoGmail /> Mándame un correo</h1></a>
           </motion.div>
           
           <motion.div
@@ -56,7 +58,7 @@ export const Contacto = () => {
           }}
           transition={{ duration: 1.1 }}
           >
-        <h1 className='business-name'>GitHub</h1>
+        <a className="contact-a" href="https://github.com/Madnolito" target="e_blank"><h1 className='business-name'><SiGithub /> GitHub</h1></a>
         </motion.div>
           <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -88,7 +90,7 @@ export const Contacto = () => {
           }}
           transition={{ duration: 1.6 }}
           >
-        <h1 className='business-name'>Linkedin</h1>
+        <a className="contact-a" href="https://www.linkedin.com/in/emanuel-tapia-carcamo/" target="e_blank"><h1 className='business-name'><SiLinkedin /> Linkedin</h1></a>
         </motion.div>
 
           <motion.div

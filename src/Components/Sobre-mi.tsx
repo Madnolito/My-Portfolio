@@ -83,7 +83,39 @@ export const Sobremi = () => {
         </motion.div>
         {/* FIN SEGUNDA EXP */} 
 
-        {/* TERCERA EXPERIENCIA */}
+ {/* TERCERA EXPERIENCIA */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          variants={fadeInVariants}
+          whileInView="animate"
+          viewport={{
+            once: true,
+          }}
+          transition={{ duration: 1.5 }}
+          >
+        <h1 className='business-name'>Formación</h1>
+        </motion.div>
+
+          <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          variants={fadeInVariants}
+          whileInView="animate"
+          viewport={{
+            once: true,
+          }}
+          transition={{ duration: 1 }}
+          whileHover={{ scale: 1.1 }}
+          >
+          <div className="card-container">
+          <div className='job-card'>
+          <p className='job-description'>Ingeniería en informática, Universidad INACAP (2017-2021).
+          </p>
+          </div>
+          </div>
+        </motion.div>
+
+
+        {/* CUARTA EXPERIENCIA */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           variants={fadeInVariants}

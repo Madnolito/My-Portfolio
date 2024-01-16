@@ -5,6 +5,7 @@ import { Experiencia } from './Components/Experiencia';
 import { Contacto } from './Components/Contacto';
 import { Secciones } from './Components/Secciones';
 import { Sobremi } from './Components/Sobre-mi';
+import { FaComputer } from "react-icons/fa6";
 
 export const Home = () => {
 
@@ -32,7 +33,7 @@ export const Home = () => {
             initial={{ opacity: 0, x: -150 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.3 }}>
-            <h2 className='manu-subtitle'>Desarrollador full-stack</h2>  
+            <h2 className='manu-subtitle'>Desarrollador full-stack <FaComputer className='icon' /></h2>  
           </motion.div>
 
           <motion.div
