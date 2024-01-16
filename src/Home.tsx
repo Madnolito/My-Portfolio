@@ -24,7 +24,7 @@ export const Home = () => {
             initial={{ opacity: 0, y: -150 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}>
-            <h1 className='manu-title'>Emanuel Tapiaaaa</h1>
+            <h1 className='manu-title'>Emanuel Tapia</h1>
           </motion.div>
 
           <motion.div
