@@ -4,6 +4,7 @@ import '../Home.css'
 var ihunt = "[Nov 2022 - Jun 2023] [8 meses]";
 var appcar = "[Jul 2022 - Sept 2022] [3 meses]";
 var valkiria = "[Ene 2022 - Jun 2022] [6 meses]";
+var terra = "[Ago 2023] [Actualidad]";
 
 const fadeInVariants = {
   animate: {
@@ -25,11 +26,74 @@ export const Experiencia = () => {
           transition={{ duration: 0.5 }}
           >
           <h1 className='experience'>Experiencia</h1>
+          </motion.div>
+        {/* EXPERIENCIA ACTUAL */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          variants={fadeInVariants}
+          whileInView="animate"
+          viewport={{
+            once: true,
+          }}
+          transition={{ duration: 0.7 }}
+          >
+        <h1 className='business-name'>Empleo Actual - Terra</h1>
+        <p className="job-time">{terra}</p>
+        </motion.div>
+          <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          variants={fadeInVariants}
+          whileInView="animate"
+          viewport={{
+            once: true,
+          }}
+          transition={{ duration: 1 }}
+          whileHover={{ scale: 1.1 }}
+          >
+          <div className="card-container">
+          <div className='job-card'>
+          <h3 className='job-duty'>Tareas realizadas</h3>
+          <p className='job-description'>Desarrollo de scripts SQL seguros para la gestión de datos en entornos de producción, Gestión de flujos de datos entre tablas correlacionadas, Desarrollo de la interfaz de usuario móvil,
+          Gestión de errores y manejo de conexiones en aplicaciones móviles, Gestión de tareas y planificación, Gestión de errores HTTP Sitio Web, Desarrollo web y diseño de interfaces de usuario, Mantenimiento de sitio web,
+          Diseño y estilización de sitios web con CSS, Procesamiento de datos en formato XML.
+          </p>
+          </div>
+          </div>
+
+          <ul className='flex-wrap'>
+            <li className='aptitudes-li'><div className='aptitudes-box'>React Native</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>React js</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>Ionic Framework</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>SQL Server</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>Vue js</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>XSLT</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>XML</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>C#</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>JavaScript</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>GitHub</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>Visual Studio</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>CSS</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>HTML</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>Node Js</div></li>
+          </ul>
+
+        </motion.div>
+        {/* FIN EXPERIENCIAL ACTUAL*/}           
 
           {/* PRIMERA EXPERIENCIA */}
-          <h1 className='business-name'>iHunt</h1>
-          <p className="job-time">{ihunt}</p>
-          </motion.div>
+          <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          variants={fadeInVariants}
+          whileInView="animate"
+          viewport={{
+            once: true,
+          }}
+          transition={{ duration: 1 }}
+          >
+        <h1 className='business-name'>iHunt</h1>
+        <p className="job-time">{ihunt}</p>
+        </motion.div>
+
           
           <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -38,7 +102,7 @@ export const Experiencia = () => {
           viewport={{
             once: true,
           }}
-          transition={{ duration: 0.7}}
+          transition={{ duration: 1.1}}
           whileHover={{ scale: 1.1 }}
           >
           <div className="card-container">
