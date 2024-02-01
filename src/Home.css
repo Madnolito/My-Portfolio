@@ -32,7 +32,8 @@ body {
     padding-bottom: 0rem;
     margin-bottom: 3rem;
     max-width: 400px;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   
   .manu-container-2 {
@@ -40,7 +41,8 @@ body {
     padding-bottom: 10rem;
     margin-bottom: 3rem;
     max-width: 400px;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
 
