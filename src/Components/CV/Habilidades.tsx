@@ -224,6 +224,32 @@ export const Habilidades = () => {
 
           <MotionDiv>
             <div className='skill-description'>
+            SQL Server
+              <div className="star-color">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+                <FaRegStar />
+              </div>
+            </div>
+          </MotionDiv>
+
+          <MotionDiv>
+            <div className='skill-description'>
+           PostgreSQL
+              <div className="star-color">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+                <FaRegStar />
+              </div>
+            </div>
+          </MotionDiv>          
+
+          <MotionDiv>
+            <div className='skill-description'>
             APIs RESTful
               <div className="star-color">
                 <FaStar />
@@ -237,7 +263,7 @@ export const Habilidades = () => {
 
           <MotionDiv>
             <div className='skill-description'>
-            Ionic
+            React Native
               <div className="star-color">
                 <FaStar />
                 <FaStar />
@@ -246,11 +272,11 @@ export const Habilidades = () => {
                 <FaRegStar />
               </div>
             </div>
-          </MotionDiv>
+          </MotionDiv>          
 
           <MotionDiv>
             <div className='skill-description'>
-            XSLT
+            Ionic
               <div className="star-color">
                 <FaStar />
                 <FaStar />
