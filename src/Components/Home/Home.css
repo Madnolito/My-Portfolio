@@ -260,3 +260,20 @@ body {
 .contact-a{
   text-decoration: none;
 }
+
+/* SKILLS */
+.star-color{
+  --tw-text-opacity: 1;
+  color: rgb(94 234 212/var(--tw-text-opacity));
+}
+
+.skill-description {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+  text-align: justify;
+  font-size: 18px;
+  display: flex;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+  width: 70%;
+}

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { BiLogoGmail } from "react-icons/bi";
-import '../Home.css'
+import '../Home/Home.css'
 
 const fadeInVariants = {
   animate: {

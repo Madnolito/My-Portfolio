@@ -1,11 +1,10 @@
 import {Link} from 'react-router-dom';
-import '../Home.css'
+import '../Home/Home.css'
 import { motion } from 'framer-motion';
 
 
 export const Secciones = () => {
     return (
-    <>
     <div className='seccion-container'>
         <ul className='seccion-ul'>
             <li className='seccion-li'>
@@ -21,6 +20,19 @@ export const Secciones = () => {
                 </Link>
                 </motion.div>  
             </li>
+            <li>
+                <motion.div
+                whileHover={{ scale: 1.1, transition: {duration: 0.2} }}
+                initial={{ opacity: 1, x: 350 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}
+                >  
+                <Link className="seccion-title" to="/habilidades">
+                    <span className='line'></span>
+                    <h3>Habilidades</h3>
+                </Link>
+                </motion.div>
+            </li>            
             <li>
                 <motion.div
                 whileHover={{ scale: 1.1, transition: {duration: 0.2} }}
@@ -49,7 +61,5 @@ export const Secciones = () => {
             </li>
         </ul>
     </div>
-    </>
-
     );
  }

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import '../Home.css'
+import '../Home/Home.css'
 
 const fadeInVariants = {
   animate: {
@@ -38,8 +38,10 @@ export const Sobremi = () => {
           >
           <div className="card-container">
           <div className='job-card'>
-          <p className='job-description'>Ingeniero Informático con experiencia en el desarrollo de back-end, front-end de aplicaciones web y móvil. <br></br> 
-           Me considero una persona enérgica, activa y con vocación, para brindar lo mejor de mí en cada proyecto que se me presente. <br></br>
+          <p className='job-description'>
+          Ingeniero Informático y Desarrollador de software con experiencia en el desarrollo de aplicaciones web y móviles, abordando tanto el front-end como el back-end. <br></br> <br></br> 
+          He participado en proyectos para múltiples empresas, contribuyendo al diseño de interfaces, procesamiento de datos, consumo de APIs desde el front, construcción de consultas eficientes, procedimientos almacenados y estructuras de bases de datos. <br></br> <br></br> 
+          Me destaco por ser una persona enérgica, activa y con vocación, para brindar lo mejor de mí en cada proyecto que se me presente. <br></br> <br></br> 
           Tengo una gran capacidad para trabajar en equipo, con alta adaptación a cambios y a nuevos desafíos, tanto profesionales como personales.
           </p>
           </div>

@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import '../Home.css'
+import '../Home/Home.css'
 
-var ihunt = "[Nov 2022 - Jun 2023] [8 meses]";
-var appcar = "[Jul 2022 - Sept 2022] [3 meses]";
-var valkiria = "[Ene 2022 - Jun 2022] [6 meses]";
-var terra = "[Ago 2023] [Actualidad]";
+let ihunt = "[Nov 2022 - Jun 2023] [8 meses]";
+let appcar = "[Jul 2022 - Sept 2022] [3 meses]";
+let valkiria = "[Ene 2022 - Jun 2022] [6 meses]";
+let terra = "[Ago 2023] [Actualidad]";
 
 const fadeInVariants = {
   animate: {
