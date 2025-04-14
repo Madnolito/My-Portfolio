@@ -1,0 +1,94 @@
+{
+    "language":{
+        "title": "Idioma",
+        "label": "IdiomaI"
+    },
+    "home": {
+        "title": "Emanuel Tapia",
+        "subtitle": "Desarrollador Full-Stack",
+        "description_1": "Soy un desarrollador de software con preferencia por el teletrabajo.",
+        "description_2": "Disfruto explorando nuevas tecnologías y me gusta manipular bases de datos.",
+        "description_3": "Actualmente, formo parte de la empresa Terra, aportando a su equipo con mi experiencia y entusiasmo por la innovación tecnológica."
+    },
+    "sections": {
+        "about": "Sobre mí",
+        "experience": "Experiencia",
+        "contact": "Contacto",
+        "skills": "Habilidades"
+    },
+    "experience": {
+        "subtitle": "Tareas realizadas",
+        "present": "Actualidad",
+        "jobs": [
+            {
+            "title": "Empleo Actual - Terra",
+            "description": "Desarrollo de scripts SQL seguros para la gestión de datos en entornos de producción, Gestión de flujos de datos entre tablas correlacionadas, Desarrollo de la interfaz de usuario móvil, Gestión de errores y manejo de conexiones en aplicaciones móviles, Gestión de tareas y planificación, Gestión de errores HTTP Sitio Web, Desarrollo web y diseño de interfaces de usuario, Mantenimiento de sitio web, Diseño y estilización de sitios web con CSS, Procesamiento de datos en formato XML."
+            },
+            {
+            "title": "iHunt",
+            "description": "Desarrollo del front-end del sitio web, Diseño de procesos para las interacciones de usuarios en el sitio web, Desarrollo de aplicaciones back-end para la página web, Creación y configuración de servidores y bases de datos, Garantizar la optimización multi-plataforma del sitio web para teléfonos móviles, Escritura de documentación, Responder a las necesidades técnicas de la organización y nuestros clientes, Diseño e implementación de planes de prueba."
+            },
+            {
+            "title": "AppCar",
+            "description": "Desarrollo del front-end del sitio web, Diseño de procesos para las interacciones de usuarios en el sitio web, Escritura de documentación, Diseño e implementación de planes de prueba, Creación de APK's para test de aplicación móvil, Distribución de tareas con Zoho."
+            },
+            {
+            "title": "Valkiria",
+            "description": "Desarrollo del front-end del sitio web, Desarrollo de tablas en SQL, Creación de funciones con JavaScript, Desarrollo de 'Procedures' (procedimientos) SQL, Desarrollo de query's SQL, Recepción de datos de la BD con C#, Cargas masivas de datos a través de Excel."
+            }
+        ]
+    },
+    "skills": {
+        "title": "Habilidades",
+        "subtitle_1": "Lenguajes de programación",
+        "subtitle_2": "Frameworks/ Librerías/ Aptitudes"  
+    },
+    "about_me": {
+        "title": "Sobre mi",
+        "section": [
+            {
+            "title": "Perfil",
+            "description_1": "Ingeniero Informático y Desarrollador de software con experiencia en el desarrollo de aplicaciones web y móviles, abordando tanto el front-end como el back-end.",
+            "description_2": "He participado en proyectos para múltiples empresas, contribuyendo al diseño de interfaces, procesamiento de datos, consumo de APIs desde el front, construcción de consultas eficientes, procedimientos almacenados y estructuras de bases de datos.",
+            "description_3": "Me destaco por ser una persona enérgica, activa y con vocación, para brindar lo mejor de mí en cada proyecto que se me presente.",
+            "description_4": "Tengo una gran capacidad para trabajar en equipo, con alta adaptación a cambios y a nuevos desafíos, tanto profesionales como personales."
+            },
+            {
+            "title": "Habilidades blandas",
+            "description_1": "Habilidades comunicativas.",
+            "description_2": "Resolución eficiente de problemas.",
+            "description_3": "Trabajo metódico y proactivo.",
+            "description_4": "Nivel alto/avanzado de inglés oral y escrito."
+            },
+            {
+            "title": "Formación",
+            "description": "Ingeniería en informática, Universidad INACAP (2017-2021)."
+            },
+            {
+            "title": "Intereses",
+            "description_1": "Calistenia.",
+            "description_2": "Videojuegos.",
+            "description_3": "Fútbol, Básquetbol, Ping- Pong."
+            }                        
+        ]       
+    },
+    "contact": {
+        "title": "Contacto",
+        "section": [
+            {
+            "title": "Mándame un Correo",
+            "description": "emanuel.taca@gmail.com"
+            },
+            {
+            "title": "Github",
+            "description": "https://github.com/Madnolito"
+            }, 
+            {
+            "title": "Linkedin",
+            "description": "https://www.linkedin.com/in/emanuel-tapia-carcamo/"
+            }                    
+        ]   
+    }
+
+}
+  

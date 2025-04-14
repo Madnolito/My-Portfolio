@@ -1,9 +1,14 @@
 import {Link} from 'react-router-dom';
 import '../Home/Home.css'
 import { motion } from 'framer-motion';
-
+import { useTranslation } from 'react-i18next';
+import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
+import PsychologyIcon from '@mui/icons-material/Psychology';
+import PersonIcon from '@mui/icons-material/Person';
+import EmailIcon from '@mui/icons-material/Email';
 
 export const Secciones = () => {
+    const { t } = useTranslation();
     return (
     <div className='seccion-container'>
         <ul className='seccion-ul'>
@@ -16,7 +21,7 @@ export const Secciones = () => {
                 >  
                 <Link className="seccion-title" to="/experiencia">
                     <span className='line'></span>
-                    <h3>Experiencia</h3>
+                    <WorkHistoryIcon sx={{ color: "rgba(94, 234, 212, 1)", mr: 1, fontSize: 20 }} /><h3>{t('sections.experience')}</h3>
                 </Link>
                 </motion.div>  
             </li>
@@ -29,7 +34,7 @@ export const Secciones = () => {
                 >  
                 <Link className="seccion-title" to="/habilidades">
                     <span className='line'></span>
-                    <h3>Habilidades</h3>
+                    <PsychologyIcon  sx={{ color: "rgba(94, 234, 212, 1)", mr: 1, fontSize: 20 }} /><h3>{t('sections.skills')}</h3>
                 </Link>
                 </motion.div>
             </li>            
@@ -42,7 +47,7 @@ export const Secciones = () => {
                 >  
                 <Link className="seccion-title" to="/sobre-mi">
                     <span className='line'></span>
-                    <h3>Sobre mi</h3>
+                    <PersonIcon  sx={{ color: "rgba(94, 234, 212, 1)", mr: 1, fontSize: 20 }} /><h3>{t('sections.about')}</h3>
                 </Link>
                 </motion.div>
             </li>
@@ -55,7 +60,7 @@ export const Secciones = () => {
                 >  
                 <Link className="seccion-title" to="/contacto">
                     <span className='line'></span>
-                    <h3>Contacto</h3>
+                    <EmailIcon  sx={{ color: "rgba(94, 234, 212, 1)", mr: 1, fontSize: 20 }} /><h3>{t('sections.contact')}</h3>
                 </Link>
                 </motion.div>   
             </li>

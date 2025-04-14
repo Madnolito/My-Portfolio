@@ -7,6 +7,7 @@ import { Experiencia } from './Components/CV/Experiencia';
 import { Contacto } from './Components/CV/Contacto';
 import { Sobremi } from './Components/CV/Sobre-mi';
 import { Habilidades } from './Components/CV/Habilidades';
+import './i18n';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

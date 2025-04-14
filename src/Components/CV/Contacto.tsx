@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { BiLogoGmail } from "react-icons/bi";
 import '../Home/Home.css'
+import { useTranslation } from 'react-i18next';
 
 const fadeInVariants = {
   animate: {
@@ -10,6 +11,8 @@ const fadeInVariants = {
   },
 }
 export const Contacto = () => {
+
+const { t } = useTranslation();
 
     return (
     <>
@@ -22,10 +25,10 @@ export const Contacto = () => {
           }}
           transition={{ duration: 0.5 }}
           >
-          <h1 className='experience'>Contacto</h1>
+          <h1 className='experience'>{t('contact.title')}</h1>
 
           {/* PRIMER CONTACTO */}
-          <a className="contact-a" href="https://mail.google.com/mail/u/0/#inbox" target="e_blank"><h1 className='business-name'><BiLogoGmail /> Mándame un correo</h1></a>
+          <a className="contact-a" href="https://mail.google.com/mail/u/0/#inbox" target="e_blank"><h1 className='business-name'><BiLogoGmail /> {t("contact.section.0.title")}</h1></a>
           </motion.div>
           
           <motion.div
@@ -40,7 +43,7 @@ export const Contacto = () => {
           >
           <div className="card-container">
           <div className='job-card'>
-          <p className='job-description'>emanuel.taca@gmail.com
+          <p className='job-description'>{t("contact.section.0.description")}
           </p>
           </div>
           </div>
@@ -58,7 +61,7 @@ export const Contacto = () => {
           }}
           transition={{ duration: 1.1 }}
           >
-        <a className="contact-a" href="https://github.com/Madnolito" target="e_blank"><h1 className='business-name'><SiGithub /> GitHub</h1></a>
+        <a className="contact-a" href="https://github.com/Madnolito" target="e_blank"><h1 className='business-name'><SiGithub /> {t("contact.section.1.title")}</h1></a>
         </motion.div>
           <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -72,7 +75,7 @@ export const Contacto = () => {
           >
           <div className="card-container">
           <div className='job-card'>
-          <p className='job-description'>https://github.com/Madnolito
+          <p className='job-description'>{t("contact.section.1.description")}
           </p>
           </div>
           </div>
@@ -90,7 +93,7 @@ export const Contacto = () => {
           }}
           transition={{ duration: 1.6 }}
           >
-        <a className="contact-a" href="https://www.linkedin.com/in/emanuel-tapia-carcamo/" target="e_blank"><h1 className='business-name'><SiLinkedin /> Linkedin</h1></a>
+        <a className="contact-a" href="https://www.linkedin.com/in/emanuel-tapia-carcamo/" target="e_blank"><h1 className='business-name'><SiLinkedin /> {t("contact.section.2.title")}</h1></a>
         </motion.div>
 
           <motion.div
@@ -105,7 +108,7 @@ export const Contacto = () => {
           >
           <div className="card-container">
           <div className='job-card'>
-          <p className='job-description'>https://www.linkedin.com/in/emanuel-tapia-carcamo/
+          <p className='job-description'>{t("contact.section.2.description")}
           </p>
           </div>
           </div>

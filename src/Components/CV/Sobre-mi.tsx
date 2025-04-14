@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import '../Home/Home.css'
+import { useTranslation } from 'react-i18next';
 
 const fadeInVariants = {
   animate: {
@@ -8,6 +9,8 @@ const fadeInVariants = {
   },
 }
 export const Sobremi = () => {
+
+const { t } = useTranslation();
 
     return (
     <>
@@ -20,10 +23,10 @@ export const Sobremi = () => {
           }}
           transition={{ duration: 0.5 }}
           >
-          <h1 className='experience'>Sobre mi</h1>
+          <h1 className='experience'>{t("about_me.title")}</h1>
 
           {/* PRIMERA EXPERIENCIA */}
-          <h1 className='business-name'>Perfil</h1>
+          <h1 className='business-name'>{t("about_me.section.0.title")}</h1>
           </motion.div>
           
           <motion.div
@@ -39,10 +42,10 @@ export const Sobremi = () => {
           <div className="card-container">
           <div className='job-card'>
           <p className='job-description'>
-          Ingeniero Informático y Desarrollador de software con experiencia en el desarrollo de aplicaciones web y móviles, abordando tanto el front-end como el back-end. <br></br> <br></br> 
-          He participado en proyectos para múltiples empresas, contribuyendo al diseño de interfaces, procesamiento de datos, consumo de APIs desde el front, construcción de consultas eficientes, procedimientos almacenados y estructuras de bases de datos. <br></br> <br></br> 
-          Me destaco por ser una persona enérgica, activa y con vocación, para brindar lo mejor de mí en cada proyecto que se me presente. <br></br> <br></br> 
-          Tengo una gran capacidad para trabajar en equipo, con alta adaptación a cambios y a nuevos desafíos, tanto profesionales como personales.
+          {t("about_me.section.0.description_1")} <br></br> <br></br> 
+          {t("about_me.section.0.description_2")} <br></br> <br></br> 
+          {t("about_me.section.0.description_3")} <br></br> <br></br> 
+          {t("about_me.section.0.description_4")}
           </p>
           </div>
           </div>
@@ -60,7 +63,7 @@ export const Sobremi = () => {
           }}
           transition={{ duration: 1 }}
           >
-        <h1 className='business-name'>Habilidades</h1>
+        <h1 className='business-name'>{t("about_me.section.1.title")}</h1>
         </motion.div>
           <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -75,10 +78,10 @@ export const Sobremi = () => {
           <div className="card-container">
           <div className='job-card'>
           <p className='job-description'>
-          Habilidades comunicativas.<br></br>
-          Resolución eficiente de problemas.<br></br>
-          Trabajo metódico y proactivo.<br></br>
-          Nivel alto/avanzado de inglés oral y escrito.
+          {t("about_me.section.1.description_1")}<br></br>
+          {t("about_me.section.1.description_2")}<br></br>
+          {t("about_me.section.1.description_3")}<br></br>
+          {t("about_me.section.1.description_4")}
           </p>
           </div>
           </div>
@@ -95,7 +98,7 @@ export const Sobremi = () => {
           }}
           transition={{ duration: 1.5 }}
           >
-        <h1 className='business-name'>Formación</h1>
+        <h1 className='business-name'>{t("about_me.section.2.title")}</h1>
         </motion.div>
 
           <motion.div
@@ -110,8 +113,7 @@ export const Sobremi = () => {
           >
           <div className="card-container">
           <div className='job-card'>
-          <p className='job-description'>Ingeniería en informática, Universidad INACAP (2017-2021).
-          </p>
+          <p className='job-description'>{t("about_me.section.2.description")}</p>
           </div>
           </div>
         </motion.div>
@@ -127,7 +129,7 @@ export const Sobremi = () => {
           }}
           transition={{ duration: 1.5 }}
           >
-        <h1 className='business-name'>Intereses</h1>
+        <h1 className='business-name'>{t("about_me.section.3.title")}</h1>
         </motion.div>
 
           <motion.div
@@ -143,9 +145,9 @@ export const Sobremi = () => {
           <div className="card-container">
           <div className='job-card'>
           <p className='job-description'>
-          Calistenia.<br></br>
-          Videojuegos.<br></br>
-          Fútbol, Básquetbol, Ping- Pong.<br></br>
+          {t("about_me.section.3.description_1")}<br></br>
+          {t("about_me.section.3.description_2")}<br></br>
+          {t("about_me.section.3.description_3")}<br></br>
 
           </p>
           </div>

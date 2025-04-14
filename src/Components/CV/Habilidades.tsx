@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import '../Home/Home.css'
 import { FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
 import { ReactNode } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const fadeInVariants = {
   animate: {
@@ -25,6 +26,8 @@ const MotionDiv = ({ children }: { children: ReactNode }) => (
 
 export const Habilidades = () => {
 
+const { t } = useTranslation();
+
     return (
     <>
           <motion.div
@@ -36,7 +39,7 @@ export const Habilidades = () => {
           }}
           transition={{ duration: 0.5 }}
           >
-          <h1 className='experience'>Habilidades</h1>
+          <h1 className='experience'>{t('skills.title')}</h1>
 
           {/* PRIMER Habilidades */}
           </motion.div>
@@ -50,7 +53,7 @@ export const Habilidades = () => {
             }}
             transition={{ duration: 0.5 }}
             >
-          <h1 className='business-name'>Lenguajes de programación</h1>
+          <h1 className='business-name'>{t('skills.subtitle_1')}</h1>
           </motion.div>
 
           <MotionDiv>
@@ -155,7 +158,7 @@ export const Habilidades = () => {
             }}
             transition={{ duration: 0.7 }}
             >
-          <h1 className='business-name'>Frameworks/ Librerías / Otros</h1>
+          <h1 className='business-name'>{t('skills.subtitle_2')}</h1>
           </motion.div>
           
           <MotionDiv>

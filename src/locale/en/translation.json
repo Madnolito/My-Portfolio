@@ -1,0 +1,93 @@
+{
+    "language":{
+        "title": "Language",
+        "label": "LanguageL"
+    },
+    "home": {
+        "title": "Emanuel Tapia",
+        "subtitle": "Full-Stack Developer",
+        "description_1": "I’m a software developer with a preference for remote work.",
+        "description_2": "I enjoy exploring new technologies and love working with databases.",
+        "description_3": "I’m currently part of the Terra team, contributing with my experience and passion for technological innovation."
+    },
+    "sections": {
+        "about": "About me",
+        "experience": "Experience",
+        "contact": "Contact",
+        "skills": "Skills"
+    },
+    "experience": {
+        "subtitle": "Responsibilities",
+        "present": "Present",        
+        "jobs": [
+            {
+            "title": "Current Job - Terra",
+            "description": "Development of secure SQL scripts for data management in production environments. Management of data flows between related tables. Mobile UI development. Error handling and connection management in mobile applications. Task organization and planning. Troubleshooting HTTP errors on websites. Frontend development and UI design. Website maintenance. Styling and layout using CSS. XML data processing."
+            },
+            {
+            "title": "iHunt",
+            "description": "Frontend development for the website. Design of user interaction processes. Backend application development for the platform. Server and database setup and configuration. Ensured cross-platform optimization for mobile devices. Technical documentation writing. Provided support for the technical needs of the organization and clients. Designed and implemented testing plans."
+            },
+            {
+            "title": "AppCar",
+            "description": "Frontend development for the website. Design of user interaction workflows. Technical documentation writing. Design and implementation of testing plans. APK creation for mobile app testing. Task distribution and coordination using Zoho."
+            },
+            {
+            "title": "Valkiria",
+            "description": "Frontend development for the website. SQL table development. JavaScript function creation. SQL procedure and query development. Data retrieval from the database using C#. Bulk data uploads via Excel integration."
+            }
+        ]
+    },
+    "skills": {
+        "title": "Skills",
+        "subtitle_1": "Programming Languages",
+        "subtitle_2": "Frameworks / Libraries / Competencies"
+    },
+    "about_me": {
+    "title": "About Me",
+        "section": [
+            {
+            "title": "Profile",
+            "description_1": "Computer Engineer and Software Developer with experience in building both web and mobile applications, covering front-end and back-end development.",
+            "description_2": "I have participated in projects for various companies, contributing to interface design, data processing, API consumption from the frontend, development of efficient queries, stored procedures, and database structures.",
+            "description_3": "I am known for being energetic, proactive, and passionate about delivering my best in every project I take on.",
+            "description_4": "I have a strong ability to work in teams, with a high level of adaptability to changes and new challenges, both professional and personal."
+            },
+            {
+            "title": "Soft Skills",
+            "description_1": "Strong communication skills.",
+            "description_2": "Efficient problem-solving.",
+            "description_3": "Methodical and proactive work ethic.",
+            "description_4": "High/advanced level of spoken and written English."
+            },
+            {
+            "title": "Education",
+            "description": "Bachelor’s Degree in Computer Engineering, INACAP University (2017-2021)."
+            },
+            {
+            "title": "Interests",
+            "description_1": "Calisthenics.",
+            "description_2": "Video games.",
+            "description_3": "Soccer, Basketball, Table Tennis."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "section": [
+            {
+            "title": "Send Me an Email",
+            "description": "emanuel.taca@gmail.com"
+            },
+            {
+            "title": "Github",
+            "description": "https://github.com/Madnolito"
+            }, 
+            {
+            "title": "Linkedin",
+            "description": "https://www.linkedin.com/in/emanuel-tapia-carcamo/"
+            }                    
+        ]   
+    }    
+
+}  

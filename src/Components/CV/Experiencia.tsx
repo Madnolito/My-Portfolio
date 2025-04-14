@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 import '../Home/Home.css'
+import { useTranslation } from 'react-i18next';
 
 let ihunt = "[Nov 2022 - Jun 2023] [8 meses]";
 let appcar = "[Jul 2022 - Sept 2022] [3 meses]";
 let valkiria = "[Ene 2022 - Jun 2022] [6 meses]";
-let terra = "[Ago 2023] [Actualidad]";
+
 
 const fadeInVariants = {
   animate: {
@@ -12,8 +13,11 @@ const fadeInVariants = {
     scale: 1
   },
 }
-export const Experiencia = () => {
 
+export const Experiencia = () => {
+  
+const { t } = useTranslation();
+let terra = `[Ago 2023] [${t('experience.present')}]`;
     return (
     <>
         <motion.div
@@ -25,7 +29,7 @@ export const Experiencia = () => {
           }}
           transition={{ duration: 0.5 }}
           >
-          <h1 className='experience'>Experiencia</h1>
+          <h1 className='experience'>{t('sections.experience')}</h1>
           </motion.div>
         {/* EXPERIENCIA ACTUAL */}
         <motion.div
@@ -37,7 +41,7 @@ export const Experiencia = () => {
           }}
           transition={{ duration: 0.7 }}
           >
-        <h1 className='business-name'>Empleo Actual - Terra</h1>
+        <h1 className='business-name'>{t("experience.jobs.0.title")}</h1>
         <p className="job-time">{terra}</p>
         </motion.div>
           <motion.div
@@ -52,11 +56,8 @@ export const Experiencia = () => {
           >
           <div className="card-container">
           <div className='job-card'>
-          <h3 className='job-duty'>Tareas realizadas</h3>
-          <p className='job-description'>Desarrollo de scripts SQL seguros para la gestión de datos en entornos de producción, Gestión de flujos de datos entre tablas correlacionadas, Desarrollo de la interfaz de usuario móvil,
-          Gestión de errores y manejo de conexiones en aplicaciones móviles, Gestión de tareas y planificación, Gestión de errores HTTP Sitio Web, Desarrollo web y diseño de interfaces de usuario, Mantenimiento de sitio web,
-          Diseño y estilización de sitios web con CSS, Procesamiento de datos en formato XML.
-          </p>
+          <h3 className='job-duty'>{t("experience.subtitle")}</h3>
+          <p className='job-description'>{t("experience.jobs.0.description")}</p>
           </div>
           </div>
 
@@ -107,12 +108,8 @@ export const Experiencia = () => {
           >
           <div className="card-container">
           <div className='job-card'>
-          <h3 className='job-duty'>Tareas realizadas</h3>
-          <p className='job-description'>Desarrollo del front-end del sitio web, Diseño de procesos para las interacciones de usuarios en el sitio web,
-            Desarrollo de aplicaciones back-end para la página web, Creación y configuración de servidores y bases de datos,
-            Garantizar la optimización multi-plataforma del sitio web para teléfonos móviles, Escritura de documentación,
-            Responder a las necesidades técnicas de la organización y nuestros clientes, Diseño e implementación de planes de prueba.
-          </p>
+          <h3 className='job-duty'>{t("experience.subtitle")}</h3>
+          <p className='job-description'>{t("experience.jobs.1.description")}</p>
           </div>
           </div>
           <ul className='flex-wrap'>
@@ -156,11 +153,8 @@ export const Experiencia = () => {
           >
           <div className="card-container">
           <div className='job-card'>
-          <h3 className='job-duty'>Tareas realizadas</h3>
-          <p className='job-description'>Desarrollo del front-end del sitio web, Diseño de procesos para las interacciones de usuarios en el sitio web,
-          Escritura de documentación, Diseño e implementación de planes de prueba, Creación de APK's para test de aplicación móvil, Distribución de
-          tareas con Zoho.
-          </p>
+          <h3 className='job-duty'>{t("experience.subtitle")}</h3>
+          <p className='job-description'>{t("experience.jobs.2.description")}</p>
           </div>
           </div>
 
@@ -209,11 +203,8 @@ export const Experiencia = () => {
           >
           <div className="card-container">
           <div className='job-card'>
-          <h3 className='job-duty'>Tareas realizadas</h3>
-          <p className='job-description'>Desarrollo del front-end del sitio web, Desarrollo de tablas en SQL,
-          Creación de funciones con JavaScript, Desarrollo de "Procedures" (procedimientos) SQL, Desarrollo de query's SQL,
-          Recepción de datos de la BD con C#, Cargas masivas de datos a través de Excel.
-          </p>
+          <h3 className='job-duty'>{t("experience.subtitle")}</h3>
+          <p className='job-description'>{t("experience.jobs.3.description")}</p>
           </div>
           </div>
           <ul className='flex-wrap'>
