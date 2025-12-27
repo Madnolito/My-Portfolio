@@ -201,6 +201,19 @@ const { t } = useTranslation();
 
           <MotionDiv>
             <div className='skill-description'>
+            APIs RESTful
+              <div className="star-color">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaRegStar />
+              </div>
+            </div>
+          </MotionDiv>
+
+          <MotionDiv>
+            <div className='skill-description'>
             ASP.NET Core
               <div className="star-color">
                 <FaStar />
@@ -253,19 +266,6 @@ const { t } = useTranslation();
 
           <MotionDiv>
             <div className='skill-description'>
-            APIs RESTful
-              <div className="star-color">
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStarHalfAlt />
-                <FaRegStar />
-              </div>
-            </div>
-          </MotionDiv>
-
-          <MotionDiv>
-            <div className='skill-description'>
             React Native
               <div className="star-color">
                 <FaStar />
@@ -276,6 +276,19 @@ const { t } = useTranslation();
               </div>
             </div>
           </MotionDiv>          
+
+          <MotionDiv>
+            <div className='skill-description'>
+            Vitest
+              <div className="star-color">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaRegStar />
+                <FaRegStar />
+              </div>
+            </div>
+          </MotionDiv>               
 
           <MotionDiv>
             <div className='skill-description'>
