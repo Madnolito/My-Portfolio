@@ -13,6 +13,7 @@
     "sections": {
         "about": "About me",
         "experience": "Experience - 4 years",
+        "experience_2": "Experience",
         "contact": "Contact",
         "skills": "Skills"
     },
