@@ -23,19 +23,19 @@
         "jobs": [
             {
             "title": "Current Job - Terra",
-            "description": "Lead and owner of the Frontend for the Web Dashboard project (React: architecture, components, UI/UX), REST API's management and development, Development of secure SQL scripts for data management in production environments. Management of data flows between related tables. Mobile UI development. Error handling and connection management in mobile applications. Task organization and planning. Troubleshooting HTTP errors on websites. Frontend development and UI design. Website maintenance. Styling and layout using CSS. XML data processing."
+            "description": "Lead and owner of the Frontend for the Web Dashboard project (React: architecture, components, UI/UX) | Unit tests with Vitest | REST API integration and development | Secure SQL scripts for production, data flows across related tables | HTTP error handling, validations and troubleshooting | Mobile UI: connection/error handling and UI design | Website maintenance and CSS styling | XML/XSLT processing."
             },
             {
             "title": "iHunt",
-            "description": "Frontend development for the website. Design of user interaction processes. Backend application development for the platform. Server and database setup and configuration. Ensured cross-platform optimization for mobile devices. Technical documentation writing. Provided support for the technical needs of the organization and clients. Designed and implemented testing plans."
+            "description": "Frontend development for the website | User flow and interaction design (UX) | Backend development for web applications | Server and database setup/configuration | Cross-platform and responsive optimization for mobile | Technical documentation | Technical support for organizational and client requirements | Test plan design and implementation."
             },
             {
             "title": "AppCar",
-            "description": "Frontend development for the website. Design of user interaction workflows. Technical documentation writing. Design and implementation of testing plans. APK creation for mobile app testing. Task distribution and coordination using Zoho."
+            "description": "Frontend development for the website | User flow and interaction design (UX) | Technical documentation | Test plan design and implementation | APK generation for mobile app testing | Task management and distribution using Zoho."
             },
             {
             "title": "Valkiria",
-            "description": "Frontend development for the website. SQL table development. JavaScript function creation. SQL procedure and query development. Data retrieval from the database using C#. Bulk data uploads via Excel integration."
+            "description": "Frontend development for the website | SQL tables and query development | JavaScript function development | SQL stored procedure development | Database integration from C# | Bulk data uploads via Excel."
             }
         ]
     },

@@ -23,19 +23,19 @@
         "jobs": [
             {
             "title": "Empleo Actual - Terra",
-            "description": "Líder y responsable del Frontend de proyecto Web Dashboard (React: arquitectura, componentes, UI/UX), Gestión y desarrollo de API's REST, Desarrollo de scripts SQL seguros para la gestión de datos en entornos de producción, Gestión de flujos de datos entre tablas correlacionadas, Desarrollo de la interfaz de usuario móvil, Gestión de errores y manejo de conexiones en aplicaciones móviles, Gestión de tareas y planificación, Gestión de errores HTTP Sitio Web, Desarrollo web y diseño de interfaces de usuario, Mantenimiento de sitio web, Diseño y estilización de sitios web con CSS, Procesamiento de datos en formato XML."
+            "description": "Líder y responsable del Frontend de proyecto Web Dashboard (React: arquitectura, componentes, UI/UX) | Tests unitarios con Vitest | Integración y desarrollo de APIs REST | Desarrollo de scripts SQL seguro para producción, flujos de datos entre tablas correlacionadas | Manejo de errores HTTP, validaciones y troubleshooting | UI móvil: manejo de conexiones, errores y diseño de interfaces de usuario | Mantenimiento web, estilización con CSS | Procesamiento XML/XSLT."
             },
             {
             "title": "iHunt",
-            "description": "Desarrollo del front-end del sitio web, Diseño de procesos para las interacciones de usuarios en el sitio web, Desarrollo de aplicaciones back-end para la página web, Creación y configuración de servidores y bases de datos, Garantizar la optimización multi-plataforma del sitio web para teléfonos móviles, Escritura de documentación, Responder a las necesidades técnicas de la organización y nuestros clientes, Diseño e implementación de planes de prueba."
+            "description": "Desarrollo front-end del sitio web | Diseño de flujos e interacciones de usuario (UX) | Desarrollo de aplicaciones back-end para la web | Creación y configuración de servidores y bases de datos | Optimización multi-plataforma y responsive para móviles | Documentación técnica | Soporte a requerimientos técnicos de la organización y clientes | Diseño e implementación de planes de prueba."
             },
             {
             "title": "AppCar",
-            "description": "Desarrollo del front-end del sitio web, Diseño de procesos para las interacciones de usuarios en el sitio web, Escritura de documentación, Diseño e implementación de planes de prueba, Creación de APK's para test de aplicación móvil, Distribución de tareas con Zoho."
+            "description": "Desarrollo front-end del sitio web | Diseño de flujos e interacciones de usuario (UX) | Documentación técnica | Diseño e implementación de planes de prueba | Generación de APK para testing de aplicación móvil | Gestión y distribución de tareas con Zoho."
             },
             {
             "title": "Valkiria",
-            "description": "Desarrollo del front-end del sitio web, Desarrollo de tablas en SQL, Creación de funciones con JavaScript, Desarrollo de 'Procedures' (procedimientos) SQL, Desarrollo de query's SQL, Recepción de datos de la BD con C#, Cargas masivas de datos a través de Excel."
+            "description": "Desarrollo front-end del sitio web | Desarrollo de tablas y consultas SQL | Creación de funciones en JavaScript | Desarrollo de stored procedures (SQL) | Integración con BD desde C# | Cargas masivas de datos vía Excel."
             }
         ]
     },

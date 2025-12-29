@@ -66,6 +66,7 @@ let terra = `[Ago 2023] [${t('experience.present')}]`;
             <li className='aptitudes-li'><div className='aptitudes-box'>React js</div></li>
             <li className='aptitudes-li'><div className='aptitudes-box'>ASP.NET Core Web API</div></li>
             <li className='aptitudes-li'><div className='aptitudes-box'>Ionic Framework</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>PostgreSQL</div></li>
             <li className='aptitudes-li'><div className='aptitudes-box'>SQL Server</div></li>
             <li className='aptitudes-li'><div className='aptitudes-box'>Vue js</div></li>
             <li className='aptitudes-li'><div className='aptitudes-box'>XSLT</div></li>
@@ -78,6 +79,8 @@ let terra = `[Ago 2023] [${t('experience.present')}]`;
             <li className='aptitudes-li'><div className='aptitudes-box'>CSS</div></li>
             <li className='aptitudes-li'><div className='aptitudes-box'>HTML</div></li>
             <li className='aptitudes-li'><div className='aptitudes-box'>Node Js</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>Jenkins</div></li>
+            <li className='aptitudes-li'><div className='aptitudes-box'>SonarQube</div></li>
           </ul>
 
         </motion.div>
