@@ -7,6 +7,7 @@ import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import PersonIcon from '@mui/icons-material/Person';
 import EmailIcon from '@mui/icons-material/Email';
+import CloudDoneIcon from '@mui/icons-material/CloudDone';
 
 export const Secciones = () => {
   const location = useLocation();
@@ -98,12 +99,25 @@ const shouldBounce = isHome && !expBouncedOff;
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7 }}
                 >  
+                <Link className="seccion-title" to="/proyectos">
+                    <span className='line'></span>
+                    <CloudDoneIcon  sx={{ color: "rgba(94, 234, 212, 1)", mr: 1, fontSize: 20 }} /><h3>{t('sections.projects')}</h3>
+                </Link>
+                </motion.div>
+            </li>                 
+            <li>
+                <motion.div
+                whileHover={{ scale: 1.1, transition: {duration: 0.2} }}
+                initial={{ opacity: 1, x: 350 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}
+                >  
                 <Link className="seccion-title" to="/habilidades">
                     <span className='line'></span>
                     <PsychologyIcon  sx={{ color: "rgba(94, 234, 212, 1)", mr: 1, fontSize: 20 }} /><h3>{t('sections.skills')}</h3>
                 </Link>
                 </motion.div>
-            </li>            
+            </li>
             <li>
                 <motion.div
                 whileHover={{ scale: 1.1, transition: {duration: 0.2} }}

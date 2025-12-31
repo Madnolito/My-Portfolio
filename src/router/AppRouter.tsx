@@ -5,6 +5,7 @@ import { Experiencia } from "../Components/CV/Experiencia";
 import { Contacto } from "../Components/CV/Contacto";
 import { Sobremi } from "../Components/CV/Sobre-mi";
 import { Habilidades } from "../Components/CV/Habilidades";
+import { Proyectos } from "../Components/CV/Proyectos";
 
 export default function AppRouter() {
   return (
@@ -39,6 +40,12 @@ export default function AppRouter() {
                 <Habilidades />
             }
           />
+          <Route
+            path="proyectos"
+            element={
+                <Proyectos />
+            }
+          />          
         </Route>
 
         <Route path="*" element={<Navigate to="/" replace />} />

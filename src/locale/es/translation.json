@@ -15,7 +15,8 @@
         "experience": "Experiencia - 4 años",
         "experience_2": "Experiencia",
         "contact": "Contacto",
-        "skills": "Habilidades"
+        "skills": "Habilidades",
+        "projects": "Proyectos - highlights"
     },
     "experience": {
         "subtitle": "Tareas realizadas",
@@ -89,7 +90,29 @@
             "description": "https://www.linkedin.com/in/emanuel-tapia-carcamo/"
             }                    
         ]   
+    },
+    "projects": {
+        "title": "Proyectos",
+        "section": [
+            {
+            "title": "BETA Página Web - Profesor",
+            "description": "React + MUI + Framer Motion"
+            },
+            {
+            "title": "Página Web - React Dashboard",
+            "description": "React + MUI - <App Privada>"
+            }, 
+            {
+            "title": "Página Web de clima (mobile)",
+            "description": "C# + .NET 8 + XSLT"
+            },
+            {
+            "title": "Página Web de horóscopos (mobile)",
+            "description": "C# + .NET 8 + XSLT"
+            }                                          
+        ]   
     }
+
 
 }
   
