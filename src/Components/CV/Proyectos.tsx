@@ -49,7 +49,7 @@ const { t } = useTranslation();
           <h1 className='experience'>{t('projects.title')}</h1>
 
           {/* PRIMER PROYECTO */}
-          <a className="contact-a" href="https://madnolito.github.io/web-page-teacher/" target="e_blank"><h1 className='business-name'><CgWebsite  /> {t("projects.section.0.title")}</h1></a>
+          <p className="contact-a"><h1 className='business-name'><CgWebsite  /> {t("projects.section.1.title")}</h1></p>
           </motion.div>
 
           <motion.div
@@ -62,7 +62,7 @@ const { t } = useTranslation();
           transition={{ duration: 0.5 }}
           >     
           <Box sx={{pt: '1rem', pb: '1rem'}}>
-          <SwiperCarrousel slides={slides} />
+          <SwiperCarrousel slides={slides2} />
           </Box>
           </motion.div>     
           <motion.div
@@ -77,7 +77,7 @@ const { t } = useTranslation();
           >
           <div className="card-container">
           <div className='job-card'>
-          <p className='job-description'>{t("projects.section.0.description")}
+          <p className='job-description'>{t("projects.section.1.description")}
           </p>
           </div>
           </div>
@@ -95,7 +95,7 @@ const { t } = useTranslation();
           }}
           transition={{ duration: 1.1 }}
           >
-        <p className="contact-a"><h1 className='business-name'><CgWebsite  /> {t("projects.section.1.title")}</h1></p>
+        <a className="contact-a" href="https://madnolito.github.io/web-page-teacher/" target="e_blank"><h1 className='business-name'><CgWebsite  /> {t("projects.section.0.title")}</h1></a>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -107,7 +107,7 @@ const { t } = useTranslation();
           transition={{ duration: 1.1 }}
           > 
           <Box sx={{pt: '1rem', pb: '1rem'}}>
-          <SwiperCarrousel slides={slides2} />
+          <SwiperCarrousel slides={slides} />
           </Box>   
           </motion.div>       
 
@@ -123,7 +123,7 @@ const { t } = useTranslation();
           >
           <div className="card-container">
           <div className='job-card'>
-          <p className='job-description'>{t("projects.section.1.description")}
+          <p className='job-description'>{t("projects.section.0.description")}
           </p>
           </div>
           </div>
